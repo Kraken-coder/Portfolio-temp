@@ -1,0 +1,48 @@
+body{
+    margin: 0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size : 15px;
+    font-weight: normal;
+    line-height: normal;
+}
+.box-1{
+    background-color: aqua;
+    border: 5px red solid;
+    padding: 20px;
+}
+.container-1{
+    margin: auto;
+}
+.box-1 h1{
+    font-weight: bold;
+    text-decoration: underline;
+    font-style:italic;
+}
+.box-2{
+    margin-top: 3%;
+    border: 1px grey solid;
+    padding : 10px;
+    border-radius: 15px;
+}
+a:hover{
+    color:red;
+}
+.block{
+    float: left;
+    width: 30%;
+    border: 1px grey solid;
+    padding : 5px;
+    box-sizing: border-box;
+
+}
+.clear{
+    clear: both;
+}
+.input{
+    padding-bottom: 15px;
+}
+.input input[type = "email"]{
+    display: block;
+    width: 90%;
+    height: 15%;
+}
